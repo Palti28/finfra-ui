@@ -1,0 +1,33 @@
+
+$brand-color:rgb(97, 181, 158);
+$primary: $brand-color;
+
+
+@import '../bootstrap/scss/functions';
+@import '../bootstrap/scss/variables';
+@import '../bootstrap/scss/bootstrap.scss';
+
+label.form-label{
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+input.form-control{
+  background-color: #F3F4F9;
+}
+
+.welcome-msg{
+  @include media-breakpoint-up(lg){
+    font-size: 4rem;
+  }
+
+  @include media-breakpoint-up(md){
+      font-size: 3rem;
+  }    
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+  
+  // $theme-colors: map-merge($theme-colors, $frinfra-colors);
+
