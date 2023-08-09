@@ -13020,18 +13020,29 @@ input.form-control {
 }
 
 .welcome-msg {
-  font-size: 1rem;
   font-weight: 800;
+}
+@media (max-width: 768px) {
+  .welcome-msg {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 991px) {
+  .welcome-msg {
+    font-size: 2rem;
+  }
 }
 @media (min-width: 992px) {
   .welcome-msg {
     font-size: 4rem;
   }
 }
-@media (min-width: 768px) {
-  .welcome-msg {
-    font-size: 3rem;
-  }
+
+.usecase-options {
+  text-align: center;
+}
+.usecase-options img {
+  margin: 16px 0 16px;
 }
 
 /*# sourceMappingURL=main.css.map */
