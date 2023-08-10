@@ -15,6 +15,41 @@ label.form-label{
 input.form-control{
   background-color: #F3F4F9;
 }
+.input-group-text{
+  background-color: #F3F4F9;
+}
+
+ul.stepper{
+  padding-inline-start:0;
+  text-align: center;
+  list-style-type: none;
+  color: #fff;
+  li{
+    margin-bottom: 12px;
+    font-weight: 600;
+    &.active{
+      color: $primary;
+    }
+  }
+}
+
+.nav-tabs {
+  border-bottom: 0;
+  .nav-link{ 
+    color: gray;
+  }
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
+  &:focus-visible{
+    box-shadow: none;
+  }
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px solid #1984ff;
+  color: #1984ff;
+}
 
 .welcome-msg{
   // Medium devices (tablets, 768px and up)
@@ -39,6 +74,7 @@ input.form-control{
     margin: 16px 0 16px;
   }
 }
+
   
   // $theme-colors: map-merge($theme-colors, $frinfra-colors);
 

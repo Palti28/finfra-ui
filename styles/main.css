@@ -13019,6 +13019,42 @@ input.form-control {
   background-color: #F3F4F9;
 }
 
+.input-group-text {
+  background-color: #F3F4F9;
+}
+
+ul.stepper {
+  padding-inline-start: 0;
+  text-align: center;
+  list-style-type: none;
+  color: #fff;
+}
+ul.stepper li {
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+ul.stepper li.active {
+  color: #61b59e;
+}
+
+.nav-tabs {
+  border-bottom: 0;
+}
+.nav-tabs .nav-link {
+  color: gray;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px solid #1984ff;
+  color: #1984ff;
+}
+.nav-tabs .nav-link.active:focus-visible, .nav-tabs .nav-item.show .nav-link:focus-visible {
+  box-shadow: none;
+}
+
 .welcome-msg {
   font-weight: 800;
 }
